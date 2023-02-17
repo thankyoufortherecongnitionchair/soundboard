@@ -1,7 +1,7 @@
 var numDrum=document.querySelectorAll(".drum").length;
 
 
-var audio = new Audio("sounds/OH MY GOD Sound Effect.mp3");
+var audio = new Audio("OH MY GOD Sound Effect.mp3");
 
 for (var looper=0;looper<numDrum;looper++){
     document.querySelectorAll(".drum")[looper].addEventListener("click",function(){
